@@ -3,7 +3,7 @@ description: usesd to cache dependencies
 inputs:
   caching:
     description: cache inputs 
-    required: true
+    required: false
     default: 'true'
 outputs:
   custom:

@@ -69,6 +69,6 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-        
+
       - name: run custom actions
-        uses: ./.github/actions/deploy-s3-java
+        uses: ./.github\actions\cached-deps\deploy-s3-java
